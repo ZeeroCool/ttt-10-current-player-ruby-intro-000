@@ -6,10 +6,10 @@ def turn_count(board)
 
   board.each do |turn|
     if turn != " "
-    counter = counter + 1
+      counter += 1
     end
   end
-  puts counter
+  #puts counter
 end
 
 
