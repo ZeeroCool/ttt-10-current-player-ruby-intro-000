@@ -6,11 +6,13 @@ def turn_count(board)
 
   board.each do |turn|
     if turn != " "
-    counter += 1
+    counter = counter + 1
     end
   end
   puts counter
 end
+
+
 
 #current_player method determins which players turn it is
   def current_player(board)
