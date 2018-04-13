@@ -2,7 +2,7 @@
 #turn_count Method counts how many turns have been taken in the current game
 def turn_count(board)
 
-  counter = 0
+  counter == 0
 
   board.each do |turn|
     if turn != " "
